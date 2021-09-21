@@ -1,8 +1,8 @@
-h1 {
+ul.timeline {
     list-style-type: none;
     position: relative;
 }
-h1:before {
+ul.timeline:before {
     content: ' ';
     background: #d4d9df;
     display: inline-block;
@@ -12,13 +12,11 @@ h1:before {
     height: 100%;
     z-index: 400;
 }
-
-h1 {
+ul.timeline > li {
     margin: 20px 0;
     padding-left: 20px;
 }
-
-h1:before {
+ul.timeline > li:before {
     content: ' ';
     background: white;
     display: inline-block;
