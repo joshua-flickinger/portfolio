@@ -1,8 +1,8 @@
-section {
+div.section {
     list-style-type: none;
     position: relative;
 }
-section:before {
+div.section:before {
     content: ' ';
     background: #d4d9df;
     display: inline-block;
@@ -12,11 +12,11 @@ section:before {
     height: 100%;
     z-index: 400;
 }
-section {
+div.section {
     margin: 20px 0;
     padding-left: 20px;
 }
-section:before {
+div.section:before {
     content: ' ';
     background: white;
     display: inline-block;
