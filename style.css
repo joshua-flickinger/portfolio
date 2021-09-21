@@ -16,7 +16,7 @@ div.section:first-child {
     margin: 20px 0;
     padding-left: 20px;
 }
-div.section:first-child-before {
+div.section:first-child:before {
     content: ' ';
     background: white;
     display: inline-block;
